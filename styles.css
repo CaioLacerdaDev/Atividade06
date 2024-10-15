@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0.3%;
+}
+.header {
+    display: flex;
+    gap: 1%;
+}
+.header-div1 {
+    width: 100%;
+    padding: 5rem;
+    background-color: orange;
+}
+.header-div2 {
+    width: 100%;
+    background-color: orange;
+    padding: 5rem;
+}
+.main-middle {
+    width: 100%;
+    background-color: greenyellow;
+    height: 30rem;
+    font-size: 20px;
+    text-align: center;
+}
+.main-container {
+    display: flex;
+    gap: 2%;
+}
+.azul-div1 {
+    width: 100%;
+    background-color: blue;
+    height: 16em;
+}
+.azul-div2 {
+    width: 100%;
+    background-color: blue;
+    height: 16em;
+}
+.azul-div3 {
+    width: 100%;
+    background-color: blue;
+    height: 16em;
+}
+
+footer {
+    display: flex;  
+}
+.div-cinza {
+    width: 100%;
+    display: flex;
+    gap: 1%;;
+}
+.div-cinza02 {
+    width: 100%;
+    display: flex;
+    gap: 1%;
+}
+
+.cinza-div1, .cinza-div2, .cinza-div3, .cinza-div4 {
+    background-color: gray;
+    width: 50%;
+    height: 10rem;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 1%;
+        gap: 0.5rem;
+    }   
+    .header-div2 {
+        margin-top: 2%;
+    }
+    .main-container {
+        flex-direction: column;
+    }
+    .azul-div2, .azul-div3 {
+        margin-top: 2%;
+        padding: 2rem;
+        height: 3rem;
+    }
+    .azul-div1 {
+        padding: 2rem;
+        height: 3rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .div-cinza {
+        display: flex;
+        gap: 0.5rem;
+        flex-direction: row;
+    }
+    .div-cinza02 {
+        display: flex;
+        gap: 0.5rem;
+        flex-direction: row
+    }
+    .cinza-div1 .cinza-div2, .cinza-div3, .cinza-div4 {
+        width: 100%;
+        height: 10rem;
+    }
+}
+@media (max-width:320px)  {
+    .header {
+        flex-direction: column;
+    }
+    .header-div2 {
+        margin-top: 2%;
+    }
+    .main-container {
+        flex-direction: column;
+    }
+    .main-middle {
+        height: 10rem;
+    }
+    .azul-div2, .azul-div3 {
+        margin-top: 2%;
+        padding: 2rem;
+        height: 3rem;
+    }
+    .azul-div1 {
+        padding: 2rem;
+        height: 3rem;
+    }
+    .div-cinza {
+        flex-direction: column;
+    }
+    .div-cinza02 {
+        flex-direction: column;
+        margin-top: 3%;
+    }
+
+    .cinza-div1, .cinza-div2, .cinza-div3, .cinza-div4 {
+        width: 100%;
+        height: 4rem;
+    }
+
+}
