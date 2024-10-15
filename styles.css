@@ -109,17 +109,23 @@ footer {
     }
 }
 @media (max-width:320px)  {
+    * {
+        padding: 0;
+    }
     .header {
         flex-direction: column;
+        padding: 0.3;
     }
     .header-div2 {
         margin-top: 2%;
     }
     .main-container {
         flex-direction: column;
+        margin-bottom: 2%;
     }
     .main-middle {
         height: 10rem;
+        margin-bottom: 2%;
     }
     .azul-div2, .azul-div3 {
         margin-top: 2%;
@@ -131,16 +137,18 @@ footer {
         height: 3rem;
     }
     .div-cinza {
-        flex-direction: column;
+        flex-direction: row;
+        gap: 0;
     }
     .div-cinza02 {
-        flex-direction: column;
-        margin-top: 3%;
+        flex-direction: row;
+        gap:0
     }
 
     .cinza-div1, .cinza-div2, .cinza-div3, .cinza-div4 {
         width: 100%;
         height: 4rem;
+        
     }
 
 }
